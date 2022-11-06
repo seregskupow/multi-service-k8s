@@ -20,7 +20,7 @@ spec:
             do echo waiting for database; sleep 2; done;']
       containers:
       - name: server
-        image: stephengrider/multi-server
+        image: seregask/multi-server
         ports:
         - containerPort: 5000
         env:
